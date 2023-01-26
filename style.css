@@ -76,10 +76,33 @@ body {
   /* flex-direction: row; */
 }
 
-.players {
+.player-X {
   flex: 1;
   padding-bottom: 9px;
   border-bottom: 5px solid #eee;
+}
+
+.player-O {
+  flex: 1;
+  padding-bottom: 9px;
+  border-bottom: 5px solid #eee;
+}
+
+.active-player {
+  color: #42bed7;
+  border-color: #42bed7;
+}
+
+.tile-x {
+  color: #42bed7;
+}
+
+.tile-o {
+  color: #d7bafb;
+}
+
+.winner {
+  color: #23ce6b;
 }
 
 .board {

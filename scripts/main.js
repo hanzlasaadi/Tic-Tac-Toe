@@ -3,7 +3,6 @@ import Game from "./game.js";
 
 const restartButton = document.querySelector(".button");
 const bigTile = document.querySelector(".board");
-
 //Start a new game
 let game = new Game();
 
@@ -19,5 +18,6 @@ restartButton.addEventListener("click", (e) => {
 //event listener on big tile
 bigTile.addEventListener("click", (e) => {
   e.preventDefault();
+  // console.log(document.querySelector(`.board-tile[data-index='${5}']`));
   game.newMove(game.updateArrayBoard(e));
 });
