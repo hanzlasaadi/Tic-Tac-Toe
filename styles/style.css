@@ -31,6 +31,11 @@ body {
   color: #4c6986;
 }
 
+.name {
+  font-style: italic;
+  color: #58cd36;
+}
+
 .container {
   max-width: 80%;
   height: 500px;
@@ -45,6 +50,7 @@ body {
 }
 
 .left h1 {
+  color: #77757d;
   max-width: 80%;
 }
 
