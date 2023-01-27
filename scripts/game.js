@@ -64,7 +64,7 @@ export default class Game {
     this.turn === "X"
       ? tile.target.classList.add("tile-x")
       : tile.target.classList.add("tile-o");
-    console.log("With Gold but updateArrayBoard"); //gold
+    // console.log("With Gold but updateArrayBoard"); //gold
     return tile.target.dataset.index;
   }
 
